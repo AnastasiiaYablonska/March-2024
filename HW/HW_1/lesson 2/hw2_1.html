@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blocks that change on hover</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik+Pixels:wght@400&family=Sedgwick+Ave+Display:wght@400&family=Dancing+Script:wght@400&family=Fjalla+One:wght@400&family=Indie+Flower:wght@400&display=swap">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .block {
+            width: 100px;
+            height: 100px;
+            border: 1px solid rgba(169, 169, 169, 0.34);
+            text-align: center;
+            line-height: 100px;
+            transition: all 0.2s ease-in-out;
+            margin: 0 10px;
+        }
+        .block:hover {
+            border-radius: 50%;
+            background-color: #ff0000;
+        }
+        .block1 {
+            font-family: 'Rubik Pixels', sans-serif;
+        }
+        .block2 {
+            font-family: 'Sedgwick Ave Display', sans-serif;
+        }
+        .block3 {
+            font-family: 'Dancing Script', sans-serif;
+        }
+        .block4 {
+            font-family: 'Fjalla One', sans-serif;
+        }
+        .block5 {
+            font-family: 'Indie Flower', sans-serif;
+        }
+    </style>
+</head>
+<body>
+<div class="block block1">
+    Block 1
+</div>
+<div class="block block2">
+    Block 2
+</div>
+<div class="block block3">
+    Block 3
+</div>
+<div class="block block4">
+    Block 4
+</div>
+<div class="block block5">
+    Block 5
+</div>
+</body>
+</html>
